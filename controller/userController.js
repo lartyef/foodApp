@@ -70,4 +70,27 @@ const loginUser = CatchErrorFunc(async (req, res) => {
 });
 
 
+
+const submitEmailPasswordUpdate = CatchErrorFunc(async (req, res) => {
+  const { email } = req.body;
+  const user = await UserModel.findOne({ email });
+  if (!user) {
+    throw new HandleError(400, "user not found", 400);
+  }
+  await jwt.sign(
+    { id: user._id },
+    process.env.JWT_SECRET,
+    { expiresIn: 60 * 5 },
+    async (error, token) => {
+      if (error) {
+        throw new HandleError(400, error.message, 400);
+      }
+      let text = `http://localhost:3000/api/v1/update-password/${user._id}/${token}`;
+      console.log(text);
+      await sendMail(user.email, "Reset password", text);
+    }
+  );
+});
+
+
 module.exports = { signupUser, loginUser };
