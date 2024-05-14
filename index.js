@@ -5,7 +5,8 @@ const {connectDB} = require("./database/db")
 // const { userRouter } = require("./routes/userRoutes")
 const { ErrorHnadler } = require('./middleware/ErrorHandler');
 const {userRouter} = require("./routes/userRoutes")
-
+const {riderRouter} = require("./routes/riderRoutes")
+const {adminRouter} = require("./routes/adminRoutes")
 const app = express();
 
 const port = process.env.PORT || 8080;
@@ -20,6 +21,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use("/api/v1", userRouter)
+app.use("/api/v1", riderRouter)
+app.use("/api/v2", adminRouter)
 app.use(ErrorHnadler);
 
 
