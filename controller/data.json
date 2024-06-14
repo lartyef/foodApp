@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Pasta",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Salad",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/90893/pexels-photo-90893.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Vegetable Salad",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Burger",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Brown Soup",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+    
+    {
+        "name": "Burger",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Boiled Egg and Parsely",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Barbecue",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/3690/food-restaurant-hand-dinner.jpg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Rice",
+        "description": "lorem",
+        "image": "link",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Cooked Rice and Curry",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Vegetable Dish",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Marcaroni",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Grilled Meat",
+        "description": "lorem",
+        "image": "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    },
+
+    {
+        "name": "Seafoods",
+        "description": "lorem",
+        " image": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": 600,
+        "createdAt": "2024-06-01T14:19:15.906+00:00"
+    }
+
+]
