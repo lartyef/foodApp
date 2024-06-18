@@ -7,12 +7,15 @@ const { ErrorHnadler } = require('./middleware/ErrorHandler');
 const {userRouter} = require("./routes/userRoutes")
 const {riderRouter} = require("./routes/riderRoutes")
 const {adminRouter} = require("./routes/adminRoutes")
+const cors = require("cors")
 const app = express();
 
 const port = process.env.PORT || 8080;
 
-
-
+app.use(cors({
+    origin: "http://localhost:5174",
+    credentials: true
+}))
 
 
 
